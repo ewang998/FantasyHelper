@@ -5,15 +5,47 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#006699"><![CDATA[
         tools:context="ewang.fantasyhelper.MainActivity">
 
-    <TextView
+    ]]>
+    <EditText
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="welcome to the 2018/19 season"
+            android:ems="10"
+            tools:layout_editor_absoluteY="16dp" tools:layout_editor_absoluteX="16dp" android:id="@+id/editText2"
+            android:textColor="#FFFFFF"/>
+    <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:width="190dp"
+            tools:layout_editor_absoluteY="134dp" tools:layout_editor_absoluteX="83dp" android:id="@+id/editText3"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:width="190dp"
+            tools:layout_editor_absoluteY="250dp" tools:layout_editor_absoluteX="83dp" android:id="@+id/editText4"/>
+    <Button
+            android:text="Log In"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="348dp"
+            tools:layout_editor_absoluteX="147dp" android:id="@+id/button"/>
+    <TextView
+            android:text="E-Mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="112dp"
+            tools:layout_editor_absoluteX="83dp" android:id="@+id/textView3" tools:text="E-Mail"
+            android:textSize="18sp" android:textColor="#FFFFFF"/>
+    <TextView
+            android:text="Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="228dp"
+            tools:layout_editor_absoluteX="83dp" android:id="@+id/textView4" android:textSize="18sp"
+            android:textAlignment="center"/>
 </android.support.constraint.ConstraintLayout>
