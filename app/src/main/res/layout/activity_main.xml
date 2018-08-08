@@ -13,13 +13,13 @@
             android:layout_width="384dp"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="welcome to the 2018/19 season"
+            android:text="@string/welcometitle"
             android:ems="10"
             android:id="@+id/editText2"
             android:textColor="#FFFFFF" tools:layout_constraintTop_creator="1" android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp" tools:layout_constraintLeft_creator="1"
+            android:layout_marginTop="35dp" tools:layout_constraintLeft_creator="1"
             app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginLeft="16dp"/>
+            android:layout_marginLeft="-51dp"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
             app:layout_constraintTop_toBottomOf="@+id/editText3" tools:layout_constraintLeft_creator="1"
             app:layout_constraintLeft_toLeftOf="@+id/editText3" app:layout_constraintHorizontal_bias="1.0"/>
     <Button
-            android:text="Log In"
+            android:text="@string/log_in"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button" tools:layout_constraintTop_creator="1" tools:layout_constraintRight_creator="1"
@@ -52,12 +52,12 @@
             android:text="E-Mail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3" tools:text="E-Mail"
+            android:id="@+id/textView3" tools:text="@string/Email"
             android:textSize="18sp" android:textColor="#FFFFFF" tools:layout_constraintTop_creator="1"
             android:layout_marginTop="53dp" app:layout_constraintTop_toBottomOf="@+id/editText2"
             tools:layout_constraintLeft_creator="1" app:layout_constraintLeft_toLeftOf="@+id/editText3"/>
     <TextView
-            android:text="Password"
+            android:text="@string/passwordonlaunchpage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView4" tools:text="Password" android:textSize="18sp"
