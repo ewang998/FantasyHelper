@@ -4,4 +4,6 @@
     <string name="log_in">Log In</string>
     <string name="Email">E-Mail</string>
     <string name="passwordonlaunchpage">Password</string>
+    <string name="title_activity_statsactivity">statsactivity</string>
+    <string name="title_activity_playerstat">playerstat</string>
 </resources>
